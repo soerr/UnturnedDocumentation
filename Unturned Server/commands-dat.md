@@ -67,3 +67,8 @@ The `votify` command sets the vote settings for the server. The parameters must 
 Examples:
 - `votify Y/300/300/60/60/8` - Allows voting, with a pass and fail cooldown of 300 seconds, a vote duration of 60 seconds, a yes percentage of 60%, and a minimum of 8 players required to start a vote.
 - `votify Y/120/90/30/70/4` - Allows voting, with a pass cooldown of 120 seconds, a fail cooldown of 90 seconds, a vote duration of 30 seconds, a yes percentage of 70%, and a minimum of 4 players required to start a vote.
+
+### Video Tutorial
+Check out our video tutorial on how to set the name for your server, change map and enable third person perspective. All by editing the Commands.dat file.
+
+[video=938cade6-d826-4728-85e5-dae5f31f833]
