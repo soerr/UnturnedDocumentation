@@ -1,6 +1,6 @@
 ---
-position: 5
-title: Logs
+position: 0
+title: Installation
 authors: MCrow
 published: false
 ---

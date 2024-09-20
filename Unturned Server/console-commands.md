@@ -2,7 +2,7 @@
 position: 5
 title: Console Commands
 authors: MCrow
-published: true
+published: false
 ---
 
 # Commands

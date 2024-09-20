@@ -129,11 +129,3 @@ The `vehicle` command is used to spawn in vehicles.
 - `<vehicle>`: The name or id of the vehicle to spawn.
 
 **Example:** `/v apc`
-
-### Time
-The `time` command is used to change the time of the server.
-
-**Syntax:** `/time <time>`
-- `<time>`: The time to set in seconds. By default full day in Unturned is 1 hour, so 3,600 seconds.
-
-**Example:** `/time 3200`
