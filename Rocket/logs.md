@@ -1,6 +1,6 @@
 ---
 position: 5
-title: Libraries
+title: Logs
 authors: MCrow
 published: true
 ---

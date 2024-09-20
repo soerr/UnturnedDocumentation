@@ -1,6 +1,6 @@
 ---
 position: 2
-title: Plugins
+title: Permissions
 authors: MCrow
 published: true
 ---
