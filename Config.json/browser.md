@@ -5,7 +5,7 @@ authors: MCrow
 published: true
 ---
 
-The `Browser` section in the `config.json` file is used to configure the in-game browser settings for your Unturned server. This section allows you to customize the appearance including the icon, thumbnail, descriptions, monetization settings and more.
+The `Browser` section in the `Config.json` file is used to configure the in-game browser settings for your Unturned server. This section allows you to customize the appearance including the icon, thumbnail, descriptions, monetization settings and more.
 
 ```json
 "Browser": {
@@ -21,17 +21,24 @@ The `Browser` section in the `config.json` file is used to configure the in-game
 },
 ```
 
+## Video Tutorial
+Check out this video tutorial on how to configure the `Browser` section in the `Config.json` file:
+
 [video=7946e77b-f309-4261-9ae7-43f7bc38f43c]
 
-## Server List Page
+## Server List
 ![server list](assets/server_list.png)
 
 ### Icon
-The `Icon` field is used to specify the URL of the image that will be displayed in the server browser. This image should be at least 64x64 PNG file.
+The `Icon` field is used to specify the URL of the image that will be displayed in the server browser. This image should be at least 64x64 image file.
 For example:
 ```
 https://i.imgur.com/xz6ONp2.png
 ```
+
+> **💡 PRO TIP**  
+> You can use [Imgur](https://imgur.com/) to upload your images and get the direct link to use in the `Icon` and `Thumbnail` fields.  
+> Remember that you must use URL which ends with image extension like `.png` or `.jpg`.
 
 ### Desc_Server_List
 The server description visible in the server list. Can't be longer than 64 characters.  
@@ -44,7 +51,7 @@ For example:
 ![server info](assets/server_info.png)
 
 ### Thumbnail
-The `Thumbnail` field is used to specify the URL of the image that will be displayed in the server info page. This image should be at least 256x256 PNG file. The URL can't be longer than 128 characters.  
+The `Thumbnail` field is used to specify the URL of the image that will be displayed in the server info page. This image should be at least 256x256 image file. The URL can't be longer than 128 characters.  
 For example:
 ```
 https://i.imgur.com/xz6ONp2.png
