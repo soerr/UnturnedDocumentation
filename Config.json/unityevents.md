@@ -15,7 +15,7 @@ It doesn't include any interesting options, so I recommend leaving it as it is.
   "Allow_Server_Commands": false,
   "Allow_Client_Messages": false,
   "Allow_Client_Commands": false
-},
+}
 ```
 
 ### Allow_Server_Messages
