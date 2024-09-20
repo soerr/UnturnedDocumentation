@@ -107,13 +107,16 @@ The `Monetization` field is used to specify the monetization settings for the se
 - `Monetized` - your server has monetization options that affect gameplay. For example, kits, vaults, or special items.
 
 ### BookmarkHost
-Configuring the Bookmark Host property along with a Login Token enables the bookmark button. When players bookmark your server they can then find it in the Bookmarks page in-game. It's nice to have, but not necessary. To learn how to set up the Bookmark Host, check out the [official documentation](https://docs.smartlydressedgames.com/en/stable/servers/bookmark-host.html).  
+Configuring the Bookmark Host property along with a Login Token enables the bookmark button. When players bookmark your server they can then find it in the Bookmarks page in-game. 
+
+It's nice to have, but not necessary. To learn how to set up the Bookmark Host, check out the [official documentation](https://docs.smartlydressedgames.com/en/stable/servers/bookmark-host.html).  
+
 The Bookmarks page looks like this:
 
 ![bookmarks page](assets/bookmarks.png)
 
 ## Conclusion
-This is all you need to know about the `Browser` section in the `Config.json` file. Here's an example of a complete `Browser` section in the `config.json` file from my Unturned America server to help you understand how it all fits together:
+This is all you need to know about the `Browser` section in the `Config.json` file. Here's an example of a complete `Browser` section in the `Config.json` file from my Unturned America server to help you understand how it all fits together:
 ```json
 "Browser": {
   "Icon": "https://i.imgur.com/xz6ONp2.png",
