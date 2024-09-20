@@ -74,8 +74,8 @@ The `kill` command is used to kill a player.
 
 **Example:** `/kill MCrow`
 
-### P
-The `p` command is used to display a list of all permissions.
+### Permissions
+The `permissions` command is used to display a list of all permissions.
 
 **Syntax:** `/p`
 
