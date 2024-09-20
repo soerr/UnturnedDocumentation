@@ -18,23 +18,19 @@ Here's list of some popular websites where you can find free and paid plugins fo
 ### Install Plugins (ZIP File)
 Once you download the plugins you want to install, follow these steps to install them on your Unturned server:
 
-1. Extract the ZIP file you downloaded.
-![extract all zip](assets/extract_all_zip.png "Extract All...")
+1. Extract the ZIP file you downloaded. You can do this by right-clicking the file and selecting **Extract All**.
 
-2. Then it will open a new window where you can select the destination folder. Simply click **Extract**.  
-![extract all destination](assets/extract_all_destination.png "Select destination folder")
+2. Then it will open a new window where you can select the destination folder. Simply click **Extract**.
 
-3. Another explorer window will open with the extracted files. You will see two folders: `Libraries` and `Plugins`.
-![extracted files](assets/extracted_files.png "Extracted files")
+3. Another explorer window will open with the extracted files. You will see two folders: `Libraries` and `Plugins`. 
 
 4. The `Libraries` folder contains the dependencies required for the plugin to work. You have to copy the `Libraries` folder files to the `Rocket/Libraries` directory of your server.
+
 ![rocket libraries directory](assets/rocket_libraries_directory.png "Rocket/Libraries directory")
 
 5. The `Plugins` folder contains the plugin files. You have to copy the `Plugins` folder files to the `Rocket/Plugins` directory of your server.
-![rocket plugins directory](assets/rocket_plugins_directory.png "Rocket/Plugins directory")
 
-> **💡 PRO TIP**  
-> Sometimes the zip file only contains one file with the extension `.dll`. In this case, you can copy the file directly to the `Rocket/Plugins` directory.
+![rocket plugins directory](assets/rocket_plugins_directory.png "Rocket/Plugins directory")
 
 6. Restart your server to apply the changes.
 
