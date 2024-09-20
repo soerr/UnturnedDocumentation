@@ -16,7 +16,7 @@ All the commands in the **Commands.dat** are executed when the server starts bef
 
 ![Server execute loading](assets/commands_execute_load.png)
 
-Some of them can be executed while the server is running for example **maxplayers**.  
+Some of them can be executed while the server is running for example **maxplayers**.
 Below is a complete list of commands for your **Commands.dat** file, with descriptions of what they do and how to use them and examples.
 
 ### Commands Table
