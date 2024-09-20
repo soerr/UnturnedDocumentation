@@ -23,7 +23,7 @@ The `unadmin` command is used to remove admin blue hammer from a player.
 
 > **💡 PRO TIP**  
 > Unfortunately there is no way to remove admin from someone who is offline. If you want you can delete all admins.  
-Stop the server and delete the `Blacklist.dat` file which you will find in the same directory as `Commands.dat`.
+Stop the server and delete the `Adminlist.dat` file which you will find in the same directory as `Commands.dat`.
 
 ### Ban
 The `ban` command is used to ban a player from the server for a specified time.  
