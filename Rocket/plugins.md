@@ -12,6 +12,45 @@ Here's list of some popular websites where you can find free and paid plugins fo
 - [unturnedstore.com](https://unturnedstore.com/)
 - [imperialplugins.com](https://imperialplugins.com/)
 
+> **💡 PRO TIP**  
+> We only guarantee the quality and safety of plugins downloaded from our website **restoremonarchy.com**.
+
+### Install Plugins (ZIP File)
+Once you download the plugins you want to install, follow these steps to install them on your Unturned server:
+
+1. Extract the ZIP file you downloaded.
+![extract all zip](assets/extract_all_zip.png "Extract All...")
+
+2. Then it will open a new window where you can select the destination folder. Simply click **Extract**.  
+![extract all destination](assets/extract_all_destination.png "Select destination folder")
+
+3. Another explorer window will open with the extracted files. You will see two folders: `Libraries` and `Plugins`.
+![extracted files](assets/extracted_files.png "Extracted files")
+
+4. The `Libraries` folder contains the dependencies required for the plugin to work. You have to copy the `Libraries` folder files to the `Rocket/Libraries` directory of your server.
+![rocket libraries directory](assets/rocket_libraries_directory.png "Rocket/Libraries directory")
+
+5. The `Plugins` folder contains the plugin files. You have to copy the `Plugins` folder files to the `Rocket/Plugins` directory of your server.
+![rocket plugins directory](assets/rocket_plugins_directory.png "Rocket/Plugins directory")
+
+> **💡 PRO TIP**  
+> Sometimes the zip file only contains one file with the extension `.dll`. In this case, you can copy the file directly to the `Rocket/Plugins` directory.
+
+6. Restart your server to apply the changes.
+
+While the server is starting, you can check the console to see if the plugins are loading correctly. 
+
+![loading plugin console](assets/loading_plugin_console.png "Loading plugin in console")
+
+When the plugin is successfully loaded for the first time it will create a configuration file in the `Rocket/Plugins` directory. You can edit this file to configure the plugin settings. Make sure to read the plugin description to learn all about its features and settings.
+
+If you have any issues with the plugin, you can check the console for error messages. If you can't solve the problem, you can contact the plugin developer for support.
+
+> **💡 PRO TIP**  
+> When contacting the plugin developer for help, make sure to provide detailed information about the issue, including the error messages from the console. You should also attach the Rocket.log file, which contains all the server logs.  
+You can find the Rocket.log file in the **Rocket/Logs** directory of your server.  
+![rocket log file](assets/rocket_log_file.png)
+
 ### Video Tutorial
 Watch our video tutorial on how to install plugins on your Unturned server.
 
