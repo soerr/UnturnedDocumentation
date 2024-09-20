@@ -21,13 +21,7 @@ The `Browser` section in the `Config.json` file is used to configure the in-game
 },
 ```
 
-## Video Tutorial
-Check out our video tutorial on how to configure the `Browser` section in the `Config.json` file.
-
-[video=7946e77b-f309-4261-9ae7-43f7bc38f43c]
-
-## Server List
-![server list](assets/server_list.png)
+![server list](assets/server_list.png "Server list in Unturned menu")
 
 ### Icon
 The `Icon` field is used to specify the URL of the image that will be displayed in the server browser. This image should be at least 64x64 image file.
@@ -47,8 +41,7 @@ For example:
 <color=white><b>★ WIPED 8/29/24 ★ MAX GROUP 14 ★ LOOT x3 ★
 ```
 
-## Server Info Page
-![server info](assets/server_info.png)
+![server info](assets/server_info.png "Server information in Unturned menu")
 
 ### Thumbnail
 The `Thumbnail` field is used to specify the URL of the image that will be displayed in the server info page. This image should be at least 256x256 image file. The URL can't be longer than 128 characters.  
@@ -111,7 +104,12 @@ Configuring the Bookmark Host property along with a Login Token enables the book
 
 It's nice to have, but not necessary. To learn how to set up the Bookmark Host, check out the [official documentation](https://docs.smartlydressedgames.com/en/stable/servers/bookmark-host.html).  
 
-![bookmarks page](assets/bookmarks.png "Bookmarks page in Unturned menu")
+![bookmarks page](assets/bookmarks.png "Bookmarked servers in Unturned menu")
+
+## Video Tutorial
+Check out our video tutorial on how to configure the `Browser` section in the `Config.json` file.
+
+[video=7946e77b-f309-4261-9ae7-43f7bc38f43c]
 
 ## Conclusion
 This is all you need to know about the `Browser` section in the `Config.json` file. Here's an example of a complete `Browser` section in the `Config.json` file from my Unturned America server to help you understand how it all fits together:
