@@ -22,7 +22,8 @@ The `unadmin` command is used to remove admin blue hammer from a player.
 **Example:** `/unadmin MCrow`
 
 > **💡 PRO TIP**  
-> Unfortunately there is no way to remove admin from someone who is offline. If you want you can delete all admins. Stop the server and delete the `Blacklist.dat` file which you will find in the same directory as `Commands.dat`.
+> Unfortunately there is no way to remove admin from someone who is offline. If you want you can delete all admins.  
+Stop the server and delete the `Blacklist.dat` file which you will find in the same directory as `Commands.dat`.
 
 ### Ban
 The `ban` command is used to ban a player from the server for a specified time.  
@@ -112,8 +113,8 @@ The `tphere` command is used to teleport a player to you.
 
 **Example:** `/tphere MCrow`
 
-### I
-The `i` command is used to spawn in items.
+### Item
+The `item` command is used to spawn in items.
 
 **Syntax:** `/i <item> [amount]`
 - `<item>`: The name or id of the item to spawn.
@@ -121,8 +122,8 @@ The `i` command is used to spawn in items.
 
 **Example:** `/i candy 20`
 
-### V
-The `v` command is used to spawn in vehicles.
+### Vehicle
+The `vehicle` command is used to spawn in vehicles.
 
 **Syntax:** `/v <vehicle>`
 - `<vehicle>`: The name or id of the vehicle to spawn.
