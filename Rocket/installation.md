@@ -9,6 +9,7 @@ Rocket usually comes pre-installed on most Unturned server hosting platforms, bu
 
 > **💡 PRO TIP**  
 > You can check if Rocket is already installed on your server by looking for the **Rocket.Unturned** folder in **Modules** directory. If it's there, you are good to go.
+>
 > ![rocket in modules](assets/rocket_in_modules.png "Rocket.Unturned folder in Modules")
 
 ### Installing Rocket
