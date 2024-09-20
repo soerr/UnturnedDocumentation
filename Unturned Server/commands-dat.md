@@ -71,4 +71,4 @@ Examples:
 ### Video Tutorial
 Check out our video tutorial on how to set the name for your server, change map and enable third person perspective. All by editing the Commands.dat file.
 
-[video=938cade6-d826-4728-85e5-dae5f31f833]
+[video=938cade6-d826-4728-85e5-dae5f31f8331]
