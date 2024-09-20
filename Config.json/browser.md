@@ -114,6 +114,7 @@ It's nice to have, but not necessary. To learn how to set up the Bookmark Host, 
 The Bookmarks page looks like this:
 
 ![bookmarks page](assets/bookmarks.png)
+*Bookmarks page*
 
 ## Conclusion
 This is all you need to know about the `Browser` section in the `Config.json` file. Here's an example of a complete `Browser` section in the `Config.json` file from my Unturned America server to help you understand how it all fits together:
