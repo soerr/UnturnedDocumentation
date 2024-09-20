@@ -1,6 +1,6 @@
 ---
-position: 3
-title: Commands
+position: 5
+title: Console Commands
 authors: MCrow
 published: true
 ---
