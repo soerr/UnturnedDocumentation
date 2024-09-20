@@ -83,8 +83,6 @@ The `Links` field is used to specify the URLs of the links that will be displaye
 ]
 ```
 
-## Other
-
 ### Login_Token
 The `Login_Token` field is necessary to make your server visible to other players in the Internet server list. The token should be exactly 32 characters long.  
 You can manually create GSLTs while logged in with your Steam account at [Steam Game Server Account Management](https://steamcommunity.com/dev/managegameservers)  
@@ -106,12 +104,12 @@ It's nice to have, but not necessary. To learn how to set up the Bookmark Host, 
 
 ![bookmarks page](assets/bookmarks.png "Bookmarked servers in Unturned menu")
 
-## Video Tutorial
-Check out our video tutorial on how to configure the `Browser` section in the `Config.json` file.
+### Video Tutorial
+Check out our video tutorial on how to configure this section.
 
 [video=7946e77b-f309-4261-9ae7-43f7bc38f43c]
 
-## Conclusion
+### Conclusion
 This is all you need to know about the `Browser` section in the `Config.json` file. Here's an example of a complete `Browser` section in the `Config.json` file from my Unturned America server to help you understand how it all fits together:
 ```json
 "Browser": {
