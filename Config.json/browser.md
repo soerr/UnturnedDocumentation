@@ -104,11 +104,6 @@ It's nice to have, but not necessary. To learn how to set up the Bookmark Host, 
 
 ![bookmarks page](assets/bookmarks.png "Bookmarked servers in Unturned menu")
 
-### Video Tutorial
-Check out our video tutorial on how to configure this section.
-
-[video=7946e77b-f309-4261-9ae7-43f7bc38f43c]
-
 ### Conclusion
 This is all you need to know about the `Browser` section in the `Config.json` file. Here's an example of a complete `Browser` section in the `Config.json` file from my Unturned America server to help you understand how it all fits together:
 ```json
@@ -135,5 +130,10 @@ This is all you need to know about the `Browser` section in the `Config.json` fi
         "Url": "https://unturnedamerica.com/store"
     }
   ]
-},
-  ```
+}
+```
+
+### Video Tutorial
+Check out our video tutorial on how to configure this section.
+
+[video=7946e77b-f309-4261-9ae7-43f7bc38f43c]

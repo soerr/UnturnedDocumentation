@@ -29,3 +29,8 @@ published: true
     "Weapons_Have_Durability": false
 }
 ```
+
+### Video Tutorials
+Check out our video tutorial on how to increase loot on your server.
+
+[video=affd02b0-e416-4fbe-8363-86e4b2639813] 
