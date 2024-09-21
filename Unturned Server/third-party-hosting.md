@@ -17,3 +17,5 @@ We made a list of hosting companies that offer Unturned servers.
 * [Pine Hosting](https://pinehosting.com/unturned)
 * [Bisect Hosting](https://www.bisecthosting.com/unturned-server-hosting)
 * [Sparked Host](https://sparkedhost.com/unturned-hosting)
+* [Wasabi Hosting](https://wasabihosting.com/store/unturned)
+* [aSync Servers](https://host.asyncservers.com/index.php?rp=/store/unturned-servers)
