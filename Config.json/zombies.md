@@ -50,3 +50,8 @@ published: true
   "Beacon_Rewards_Multiplier": 1.0
 }
 ```
+
+### Video Tutorial
+Check out our video tutorial on how to increase number of items dropped by zombies and loot on your server.
+
+[video=affd02b0-e416-4fbe-8363-86e4b2639813] 

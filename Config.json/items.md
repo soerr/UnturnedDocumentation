@@ -30,7 +30,32 @@ published: true
 }
 ```
 
-### Video Tutorials
-Check out our video tutorial on how to increase loot on your server.
+### Has_Durability
+Original option for disabling item quality. If false, items spawn at 100% quality and their quality doesn't decrease.  
+If this is set to false, then all below settings are ignored.
+
+### Food_Spawns_At_Full_Quality
+Food-specific replacement for `Has_Durability`. If true, food spawns at 100% quality.
+
+### Water_Spawns_At_Full_Quality
+Water-specific replacement for `Has_Durability`. If true, water spawns at 100% quality.
+
+### Clothing_Spawns_At_Full_Quality
+Clothing-specific replacement for `Has_Durability`. If true, clothing spawns at 100% quality.
+
+### Weapons_Spawn_At_Full_Quality
+Weapon-specific replacement for `Has_Durability`. If true, weapons spawns at 100% quality.
+
+### Default_Spawns_At_Full_Quality
+Fallback used when spawning an item that doesn't fit into one of the other quality/durability settings. If true, items spawn at 100% quality.
+
+### Clothing_Has_Durability
+Clothing-specific replacement for `Has_Durability`. If false, clothing quality doesn't decrease when damaged.
+
+### Weapons_Have_Durability
+Melee and gun replacement for `Has_Durability`. Defaults to true. If false, weapons quality doesn't decrease when used.
+
+### Video Tutorial
+Check out our video tutorial on how to increase spawn chance of items and loot on your server.
 
 [video=affd02b0-e416-4fbe-8363-86e4b2639813] 
