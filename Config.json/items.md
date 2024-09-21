@@ -58,7 +58,14 @@ How many seconds it takes for an item spawn node to to be eligible to attempt to
 ### Quality_Full_Chance
 Percent chance, represented as a decimal, for an item to spawn at full quality. Value must be within a range of 0 to 1.
 
-For example if you set this to 0.6, then there's 60% chance for every item to spawn at full quality.
+If `Has_Durability` is set to false, then this setting doesn't have any effect.
+
+For example if you set this to 0.6, then there's 60% chance for every item to spawn at full quality. Otherwise it will spawn at random quality, for example like this Pickaxe at 36% quality.
+
+![items quality](assets/items_quality.png)
+
+### Quality_Multiplier
+
 
 ### Has_Durability
 Original option for disabling item quality. If false, items spawn at 100% quality and their quality doesn't decrease.  
