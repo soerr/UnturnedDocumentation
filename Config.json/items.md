@@ -30,6 +30,36 @@ published: true
 }
 ```
 
+### Spawn_Chance
+Percent chance, represented as a decimal, for any given item spawn node to spawn an item. Value must be within a range of 0 to 1.  
+So if you want maximum number of items to spawn, set this to 1.
+
+Number of item spawn nodes on official maps:
+- PEI: 2,462
+- Washington: 2,795
+- Yukon: 1,207
+- Russia: 6,409
+- Germany: 4,347
+- Monolith: 211
+
+### Despawn_Dropped_Time
+How many seconds it takes for an item dropped on the ground to disappear.  
+
+For example items dropped by players when they die. It is set to 600 seconds by default, so it means players have 15 minutes to get back to their body and pick up their items.
+
+### Despawn_Natural_Time
+How many seconds it takes for an item that naturally spawned on the ground to disappear.  
+
+For example items player didn't pick up when looting location, because they didn't find them interesting. They will naturally de-spawn and be replaced by new items.
+
+### Respawn_Time
+How many seconds it takes for an item spawn node to to be eligible to attempt to spawn a new item, after the original item has been picked up or de-spawned. 
+
+### Quality_Full_Chance
+Percent chance, represented as a decimal, for an item to spawn at full quality. Value must be within a range of 0 to 1.
+
+For example if you set this to 0.6, then there's 60% chance for every item to spawn at full quality.
+
 ### Has_Durability
 Original option for disabling item quality. If false, items spawn at 100% quality and their quality doesn't decrease.  
 If this is set to false, then all below settings are ignored.
