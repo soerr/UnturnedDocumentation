@@ -1,5 +1,5 @@
 ---
-position: 5
+position: 7
 title: Cheats Commands
 authors: MCrow
 published: true

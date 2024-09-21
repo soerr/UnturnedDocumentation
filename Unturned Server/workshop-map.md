@@ -1,5 +1,5 @@
 ---
-position: 6
+position: 8
 title: Workshop Map
 authors: MCrow
 published: true

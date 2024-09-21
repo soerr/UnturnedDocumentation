@@ -1,5 +1,5 @@
 ---
-position: 2
+position: 4
 title: Public Server
 authors: MCrow
 published: true

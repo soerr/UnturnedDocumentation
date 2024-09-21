@@ -1,5 +1,5 @@
 ---
-position: 4
+position: 6
 title: Commands
 authors: MCrow
 published: true
