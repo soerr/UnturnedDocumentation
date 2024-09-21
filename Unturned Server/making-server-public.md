@@ -1,6 +1,6 @@
 ---
 position: 4
-title: Public Server
+title: Making Server Public
 authors: MCrow
 published: true
 ---
