@@ -4,6 +4,9 @@ title: Commands
 authors: MCrow
 published: true
 ---
+
+This is a list of vanilla player commands that can be used in-game on the server as an admin by typing them in the chat.
+
 ### Admin
 The `admin` command is used to give a player admin blue hammer. Admin can use all commands and has access to all permissions.
 

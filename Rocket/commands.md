@@ -5,6 +5,8 @@ authors: MCrow
 published: true
 ---
 
+This is a list of player commands that Rocket adds to the game. These commands can be used in-game on the server as an admin by typing them in the chat.
+
 ### Kill
 The `kill` command is used to kill a player.
 
