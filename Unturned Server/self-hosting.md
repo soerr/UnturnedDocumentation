@@ -38,6 +38,9 @@ To join your server, simply open Unturned go to Multiplayer. Then click on "All 
 ### Invite your friends
 To invite your friends, send them your Server Code that you can find in the console window. On Windows you can copy it by highlighting it with the mouse and right-clicking on your mouse.
 
+> **💡 PRO TIP**  
+> The server code changes every time your restart the server. If you want to keep the same server code, you need to register your server. Learn more about it in the **Making Server Public** page.
+
 ![server code in console](assets/server_code_in_console.png)
 
 ### Video Tutorial
