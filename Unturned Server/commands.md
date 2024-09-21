@@ -82,7 +82,9 @@ The `night` command is used to change the time of the server to night.
 The `weather` command is used to change the weather of the server.
 
 **Syntax:** `/weather <weather>`
-- `<weather>`: The weather to set. Possible values are `none`, `disable`, `storm`, `blizzard`
+- `<weather>`: The weather to set. Possible values are `none`, `disable`, `storm`, `blizzard` or you can specify a custom weather asset id.
+
+**Example:** `/weather storm`, `/weather 6c850687bdb947a689fa8de8a8d99afb`
 
 ### Time
 The `time` command is used to change the time of the server.
