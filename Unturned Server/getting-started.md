@@ -5,7 +5,9 @@ authors: MCrow
 published: true
 ---
 
-Starting your own Unturned server is a great experience. You can do it just to play with your friends by your own rules or open a public server and build a community.  
+Starting your own Unturned server is a great experience. You can do it just to play with your friends by your own rules or open a public server and build a community.
+
+
 
 Follow this documentation to learn all the necessary steps to start your own Unturned server.
 

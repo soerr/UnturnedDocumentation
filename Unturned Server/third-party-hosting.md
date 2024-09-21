@@ -12,7 +12,7 @@ Game server hosting companies provide you with a server that is already set up a
 **How much does it cost?** It depends on the hosting company and the server's size. You can find servers for as low as $5 per month, but the price can range up to $20 or more, depending on the limits and features.
 
 ### List of hosting companies
-We made a list of hosting companies that offer Unturned servers.
+We made a list of some hosting companies that offer Unturned servers.
 
 * [Pine Hosting](https://pinehosting.com/unturned)
 * [Bisect Hosting](https://www.bisecthosting.com/unturned-server-hosting)

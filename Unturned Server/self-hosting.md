@@ -4,8 +4,9 @@ title: Self-Hosting
 authors: MCrow
 published: true
 ---
-
 If you want to play with your friends, you can start a server on your own computer. This way you can play together for free. 
+
+![self hosting meme](assets/self_hosting_meme.jpg)
 
 There are some downsides to this approach:
 * Your friends can only play when you are online or your computer needs to be running all the time. 
@@ -13,7 +14,9 @@ There are some downsides to this approach:
 * You need to have a good internet connection.
 * When your computer crashes or loses power, the server will go down and you and your friends might lose progress.
 
-We don't recommend this approach for public servers. If you want to run a public server, you should consider renting a server from a third-party hosting company. Check out the next page to learn more about it.
+We don't recommend this approach if you are planning to build a community. You should consider renting a server from a third-party hosting company that can run 24/7. Check out the next page to learn more about it.
+
+Below you will find a step-by-step guide on how to start your own Unturned server on Windows. At the very bottom, you will find a video tutorial.
 
 ### Install Unturned Dedicated Server
 Open Steam and in the store page search for "Unturned Dedicated Server".
