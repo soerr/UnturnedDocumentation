@@ -104,3 +104,19 @@ The `say` command is used to send a message to all players on the server.
 
 **Example:** `/say Welcome to our server!`
 
+### Teleport
+The `teleport` command is a complex command that can be used in different ways.
+
+**Syntax:** `/teleport [player] [location]`
+- `[player]`: The name of the player to teleport. If you want to teleport yourself, you can leave this field empty.
+- `[location]`: The location to teleport to. It can be one of the following:
+    - `player`: Name of the player to teleport to.
+    - `bed`: Teleports the player to their bed.
+    - `wp`: Teleports you to a waypoint, can only be used to teleport yourself.
+    - `node`: Name of the node like city or other location. For example, `Seattle`, `Alberton`, `Airport`.
+
+**Example:** `/teleport MCrow Seattle`, `/teleport bed`, `/teleport wp`, `/teleport Seattle`
+
+> **💡 PRO TIP**  
+> When using the `/teleport wp` command, you can set a waypoint by right clicking on the map to set a marker.  
+![waypoint marker](assets/waypoint_marker.png)
