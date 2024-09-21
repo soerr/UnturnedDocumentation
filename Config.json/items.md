@@ -31,8 +31,7 @@ published: true
 ```
 
 ### Spawn_Chance
-Percent chance, represented as a decimal, for any given item spawn node to spawn an item. Value must be within a range of 0 to 1.  
-So if you want maximum number of items to spawn, set this to 1.
+Percent chance, represented as a decimal, for any given item spawn node to spawn an item. Value must be within a range of 0 to 1.
 
 Number of item spawn nodes on official maps:
 - PEI: 2,462
