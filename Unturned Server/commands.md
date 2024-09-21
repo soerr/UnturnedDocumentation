@@ -118,5 +118,6 @@ The `teleport` command is a complex command that can be used in different ways.
 **Example:** `/teleport MCrow Seattle`, `/teleport bed`, `/teleport wp`, `/teleport Seattle`
 
 > **💡 PRO TIP**  
-> When using the `/teleport wp` command, you can set a waypoint by right clicking on the map to set a marker.  
-![waypoint marker](assets/waypoint_marker.png)
+> When using the `/teleport wp` command, you can set a waypoint by right clicking on the map to set a marker.
+>
+> ![waypoint marker](assets/waypoint_marker.png)
