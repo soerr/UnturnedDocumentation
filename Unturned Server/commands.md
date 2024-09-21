@@ -102,7 +102,7 @@ The `say` command is used to send a message to all players on the server.
 
 **Syntax:** `/say <message> [r] [g] [b]`
 
-**Example:** `/say Welcome to our server!`
+**Example:** `/say "Welcome to our server!" 255 0 0`
 
 ### Teleport
 The `teleport` command is a complex command that can be used in different ways to teleport yourself or other players.
