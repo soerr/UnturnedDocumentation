@@ -65,7 +65,29 @@ For example if you set this to 0.6, then there's 60% chance for every item to sp
 ![items quality](assets/items_quality.png)
 
 ### Quality_Multiplier
+Multiplier on the quality of items that spawn. When greater than "1", items will spawn at a higher quality. 
 
+Basically it is a multiplier for the quality of items that spawn with below 100% quality. If this pickaxe was to spawn with 36% chance but quality multiplier was set to 2, then it would spawn at 72% quality.
+
+### Gun_Bullets_Full_Chance
+Percent chance, represented as a decimal, for gun bullets to spawn at full magazine. Value must be within a range of 0 to 1.
+
+### Gun_Bullets_Multiplier
+Multiplier on the amount of ammo in ranged weapons that spawn. When greater than "1", they will spawn with more ammo. 
+
+For example if Maplestrike was randomized to spawn with 6 bullets, it will spawn with 12 bullets if this setting is set to 2.
+
+### Magazine_Bullets_Full_Chance
+Percent chance, represented as a decimal, for magazines to spawn at full capacity. Value must be within a range of 0 to 1.
+
+### Magazine_Bullets_Multiplier
+Multiplier on the amount of ammo in magazines that spawn. When greater than "1", they will spawn with more ammo.
+
+### Crate_Bullets_Full_Chance
+Percent chance, represented as a decimal, for ammunition crates to spawn at full capacity. Value must be within a range of 0 to 1.
+
+### Crate_Bullets_Multiplier
+Multiplier on the amount of ammo in ammunition crates that spawn. When greater than "1", they will spawn with more ammo.
 
 ### Has_Durability
 Original option for disabling item quality. If false, items spawn at 100% quality and their quality doesn't decrease.  
