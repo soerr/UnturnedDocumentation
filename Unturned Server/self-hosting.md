@@ -33,7 +33,7 @@ We don't recommend this approach for public servers. If you want to run a public
 Don't close this window, it's your server console. When you close it, the server will stop. You can minimize it if you want.
 
 ### Join your server
-To join your server, simply open Unturned go to Multiplayer. Then click on "All LAN" preset and your server should appear in the list.
+To join your server, simply open Unturned go to Multiplayer. Then click on "All LAN" preset and your server should appear in the list. The default server name will be "Unturned".
 
 ![all lan preset](assets/all_lan_preset.png)
 
