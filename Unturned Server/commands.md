@@ -82,9 +82,12 @@ The `night` command is used to change the time of the server to night.
 The `weather` command is used to change the weather of the server.
 
 **Syntax:** `/weather <weather>`
-- `<weather>`: The weather to set. Possible values are `none`, `disable`, `storm`, `blizzard` or you can specify a custom weather asset id.
+- `<weather>`: The weather to set. Possible values are `none`, `disable`, `storm`, `blizzard` or you can specify a custom weather asset guid.
 
 **Example:** `/weather storm`, `/weather 6c850687bdb947a689fa8de8a8d99afb`
+
+> **💡 PRO TIP**  
+> You can find the weather asset guids in the official [Unturned Wiki](https://unturned.wiki.gg/wiki/Weather).
 
 ### Time
 The `time` command is used to change the time of the server.
