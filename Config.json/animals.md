@@ -5,6 +5,10 @@ authors: MCrow
 published: true
 ---
 
+Animals settings can control the number of animals that spawn on your server, their armor and damage multipliers.
+
+![](assets/animals.png)
+
 ```json
 "Animals": {
   "Respawn_Time": 180.0,
