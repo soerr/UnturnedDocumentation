@@ -128,5 +128,6 @@ The `teleport` command is a complex command that can be used in different ways t
 > ![waypoint marker](assets/waypoint_marker.png)
 
 ### Video Tutorial
+Check out our video where we show you how to use 10 of these commands in-game.
 
 [video=8b1061f4-72c4-4417-91a8-6f884bfefbb6]
