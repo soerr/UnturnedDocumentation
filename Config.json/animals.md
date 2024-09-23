@@ -22,6 +22,8 @@ published: true
 ### Respawn_Time
 How many seconds it takes for an animal spawn node to attempt to spawn a new animal.  
 
+I recommend leaving this value at **180**.
+
 ### Damage_Multiplier
 Multiplier on the damage dealt by animals. When greater than **1**, more damage is dealt.  
 
@@ -50,7 +52,7 @@ The maximum number of animals that can exist at the same time on a map of specif
 
 For example, if you're server is using **Washington** map and `Max_Instances_Medium` is set to **16** then the maximum number of animals spawning and walking around the map will is just **16**.
 
-I recommend increasing this value to make animals more common on your server. However remember but the number of animals that will spawn naturally is also limited by the number of spawn-points on every map. Washington only has **59** spawn-points for animals, so even if you set `Max_Instances_Medium` to **64**, only **59** animals will spawn.
+I recommend increasing this value to make animals more common on your server. However remember that the number of animals that will spawn naturally is also limited by the number of spawn-points on every map. Washington only has **59** spawn-points for animals, so even if you set `Max_Instances_Medium` to **64**, only **59** animals will spawn.
 
 Number of spawn-points on official survival maps:
 - **PEI** - 60
