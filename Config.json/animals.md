@@ -30,7 +30,7 @@ If you set `Damage_Multiplier` to 2, animals will deal twice as much damage as n
 - **Wolves** deal **10** damage per hit, so with a multiplier of **2**, they will deal **20** damage per hit.
 
 > **💡 PRO TIP**
-> Remember only bears and wolves attack players.
+> Only bears and wolves attack players.
 
 ### Armor_Multiplier
 Multiplier on the damage dealt to animals. When greater than **1**, more damage is dealt. 
