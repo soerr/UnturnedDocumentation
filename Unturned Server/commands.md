@@ -126,3 +126,7 @@ The `teleport` command is a complex command that can be used in different ways t
 > When using the `/teleport wp` command, you can set a waypoint by right clicking on the map to set a marker.
 >
 > ![waypoint marker](assets/waypoint_marker.png)
+
+### Video Tutorial
+
+[video=8b1061f4-72c4-4417-91a8-6f884bfefbb6]
