@@ -4,9 +4,10 @@ title: Self-Hosting
 authors: MCrow
 published: true
 ---
-If you want to play with your friends, you can start a server on your own computer. This way you can play together for free. 
 
-![self hosting meme](assets/self_hosting_meme.jpg)
+![self hosting](assets/self_hosting.jpg)
+
+If you want to play with your friends, you can start a server on your own computer. This way you can play together for free. 
 
 There are some downsides to this approach:
 * Your friends can only play when you are online or your computer needs to be running all the time. 
