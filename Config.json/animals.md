@@ -5,9 +5,9 @@ authors: MCrow
 published: true
 ---
 
-Animals settings can control the number of animals that spawn on your server, their armor and damage multipliers.
-
 ![](assets/animals.png)
+
+Animals settings can control the number of animals that spawn on your server, their armor and damage multipliers.
 
 ```json
 "Animals": {
