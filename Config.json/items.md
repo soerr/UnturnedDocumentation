@@ -5,6 +5,10 @@ authors: MCrow
 published: true
 ---
 
+![items](assets/items.png)
+
+Items settings allow you to increase loot on the server, change the quality of items, and toggle durability for all or different item types.
+
 ```json
 "Items": {
     "Spawn_Chance": 0.35,
