@@ -26,6 +26,8 @@ Animals settings can control the number of animals that spawn on your server, th
 ### Respawn_Time
 How many seconds it takes for an animal spawn node to attempt to spawn a new animal.  
 
+This option doesn't make animals re-spawn more often and isn't very significant. It's just the time it takes for a spawn-point to attempt to spawn a new animal after the previous one was killed.
+
 I recommend leaving this value at **180**.
 
 ### Damage_Multiplier
