@@ -36,8 +36,8 @@ If you set `Damage_Multiplier` to 2, animals will deal twice as much damage as n
 Multiplier on the damage dealt to animals. When greater than **1**, more damage is dealt. 
 
 If you want to make animals harder to kill, you can set this value to **0.5.** For example:
-- **Cow** has **100** HP, so with `Armor_Multiplier` set to **0.5** player will have to deal **200** HP damage to kill it
-- **Pig** has **50** HP, so with `Armor_Multiplier` set to **0.5** player will have to deal **100** HP damage to kill it
+- **Cow** has **100** HP, so with `Armor_Multiplier` set to **0.5** player will have to deal **200** HP damage to kill it.
+- **Pig** has **50** HP, so with `Armor_Multiplier` set to **0.5** player will have to deal **100** HP damage to kill it.
 
 ### Max_Instances
 The maximum number of animals that can exist at the same time on a map of specific size.
