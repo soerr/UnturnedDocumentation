@@ -66,7 +66,7 @@ The `<Id>` element is the unique identifier of the group. It is used to referenc
 ### DisplayName
 As the name suggests, `<DisplayName>` value is a public name of the group shown to players for example when they use `/p` command to view their groups and permissions.
 
-![your groups](assets/your_groups.png)
+![your groups](assets/your_groups.png "/p command output in-game")
 
 ### Prefix
 The `<Prefix>` element is used to append a text before the player's name.
@@ -87,7 +87,7 @@ The `<Suffix>` element is used to append a text after the player's name.
 <Suffix> [VIP]</Suffix>
 ```
 
-![vip suffix](assets/vip_suffix.png "[VIP] suffix in-game")
+![vip suffix](assets/vip_suffix.png "[Survivor] prefix and [VIP] suffix in-game")
 
 > **💡 PRO TIP**  
 > If you give a rank that has a prefix or suffix to a player while he's already on the server, he will need to reconnect from the server to apply the changes.
