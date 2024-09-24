@@ -93,3 +93,12 @@ The `<Suffix>` element is used to append a text after the player's name.
 
 > **💡 PRO TIP**  
 > If you give rank with prefix or suffix to a player while they are already on the server, they will have to reconnect to apply the changes.
+
+### Color
+This is a color of player messages in chat. It can be a color name or a hexadecimal color code.
+
+```xml
+<Color>FF9900</Color>
+```
+
+[color-picker=#1F871F]
