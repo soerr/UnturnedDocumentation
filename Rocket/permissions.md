@@ -90,4 +90,4 @@ The `<Suffix>` element is used to append a text after the player's name.
 ![vip suffix](assets/vip_suffix.png "[Survivor] prefix and [VIP] suffix in-game")
 
 > **💡 PRO TIP**  
-> If you give a rank that has a prefix or suffix to a player while he's already on the server, he will need to reconnect from the server to apply the changes.
+> If you give rank with prefix or suffix to a player while they are already on the server, they will have to reconnect to apply the changes.
