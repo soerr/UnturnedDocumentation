@@ -113,4 +113,114 @@ The `<Members>` element contains a list of Steam IDs of players who are members 
 ```
 
 > **💡 PRO TIP**  
-> The Steam ID in a default Permissions.config.xml is a Steam ID of Rocket creator, [fr34kyn01535](https://steamcommunity.com/profiles/76561198016438091). You can remove it or replace it with your own Steam ID.
+> The Steam ID in a default Permissions.config.xml is a Steam ID of Rocket creator, [fr34kyn01535](https://steamcommunity.com/profiles/76561198016438091). You can remove it, replace it with your own Steam ID or just keep it there :)
+
+### ParentGroup
+Use <ParentGroup> if you want to inherit permissions from another group. 
+
+It is useful when you have multiple ranks that are upgradeable like on Unbeaten. Their MVP rank has its own vault but also includes a vault from previous rank VIP. 
+
+```xml
+<ParentGroup>VIP</ParentGroup>
+```
+
+### Priority
+The lower the priority value the more important is the rank. If you have Moderator and VIP rank, you want to set Moderator to have a lower priority than VIP. 
+
+If the priorities are the same, the rank that is located higher in the Permissions.config.xml file will have more power.
+
+```xml
+<Priority>50</Priority>
+```
+
+### Permissions
+The `<Permissions>` element contains a list of `<Permission>` elements. Each `<Permission>` element represents a permission that the group has.
+
+They are usually permissions to execute certain commands, but not only.
+For example [RP Licenses](https://restoremonarchy.com/plugins/rplicenses) plugin has **license.vehicle** permission to drive a vehicle. If you wanted a player to be able to drive a vehicle, you would add this permission to their group.
+
+The `<Permission>` tags also have **Cooldown** attribute if you want to limit the interval in which the member of the given group can execute some command. It is specified in seconds. A good example is **heal** with a cooldown of **120** seconds in the VIP group.
+
+```xml
+<Permissions>
+  <Permission Cooldown="0">effect</Permission>
+  <Permission Cooldown="120">heal</Permission>
+  <Permission Cooldown="30">v</Permission>
+</Permissions>
+```
+
+### Template
+You can use the following template to with VIP, Moderator and Admin ranks.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RocketPermissions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DefaultGroup>default</DefaultGroup>
+  <Groups>
+    <Group>
+      <Id>default</Id>
+      <DisplayName>Guest</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>white</Color>
+      <Members />
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="0">p</Permission>
+        <Permission Cooldown="0">home</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>admin</Id>
+      <DisplayName>Admin</DisplayName>
+      <Prefix>[Admin] </Prefix>
+      <Suffix />
+      <Color>cyan</Color>
+      <Members>
+        <Member>76561198016438091</Member>
+      </Members>
+      <ParentGroup>moderator</ParentGroup>
+      <Priority>10</Priority>
+      <Permissions>
+        <Permission Cooldown="0">admin</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>moderator</Id>
+      <DisplayName>Moderator</DisplayName>
+      <Prefix>[Moderator] </Prefix>
+      <Suffix />
+      <Color>green</Color>
+      <Members>
+        <Member>76561198016438091</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Priority>20</Priority>
+      <Permissions>
+        <Permission Cooldown="0">ban</Permission>
+        <Permission Cooldown="0">unban</Permission>
+        <Permission Cooldown="0">kick</Permission>
+        <Permission Cooldown="0">spy</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>vip</Id>
+      <DisplayName>VIP</DisplayName>
+      <Prefix>[VIP] </Prefix>
+      <Suffix />
+      <Color>yellow</Color>
+      <Members>
+        <Member>76561198016438091</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Priority>30</Priority>
+      <Permissions>
+        <Permission Cooldown="3600">airdrop</Permission>
+      </Permissions>
+    </Group>
+  </Groups>
+</RocketPermissions>
+```
+
+
+
