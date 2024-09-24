@@ -78,7 +78,7 @@ The `<Prefix>` element is used to append a text before the player's name.
 ![survivor prefix](assets/survivor_prefix.png "[Survivor] prefix in-game")
 
 > **💡 PRO TIP**  
-> Notice the space after the prefix text. It is important to add a space after the prefix text to separate it from the player's name.
+> Notice the space after the prefix text. It is important to add a space after the prefix text to separate it from the player's name. Same goes for the suffix text.
 
 ### Suffix
 The `<Suffix>` element is used to append a text after the player's name.
