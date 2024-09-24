@@ -100,3 +100,17 @@ This is a color of player messages in chat. It can be a color name or a hexadeci
 ```xml
 <Color>FF9900</Color>
 ```
+
+The color names you can use are the following: `black`, `blue`, `clear`, `cyan`, `gray`, `green`, `grey`, `magenta`, `red`, `white`, `yellow`, `rocket`.
+
+### Members
+The `<Members>` element contains a list of Steam IDs of players who are members of the group.
+
+```xml
+<Members>
+  <Member>76561198016438091</Member>
+</Members>
+```
+
+> **💡 PRO TIP**  
+> The Steam ID in a default Permissions.config.xml is a Steam ID of Rocket creator, [fr34kyn01535](https://steamcommunity.com/profiles/76561198016438091). You can remove it or replace it with your own Steam ID.
