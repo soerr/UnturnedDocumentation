@@ -101,4 +101,4 @@ This is a color of player messages in chat. It can be a color name or a hexadeci
 <Color>FF9900</Color>
 ```
 
-[color-picker]
+{color-picker}
