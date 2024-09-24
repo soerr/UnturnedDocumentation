@@ -7,7 +7,9 @@ published: true
 
 Rocket permissions system allows you to define groups which are also known as ranks or roles. Each group can have a set of permissions to execute certain commands or actions.  
 
-You will find `Permissions.config.xml` file in the `Rocket` directory.
+You will find `Permissions.config.xml` file in the `Rocket` directory of your server.
+
+Having done changes to the permissions file, you need to restart the server or use the `/p reload` command to apply the changes.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
