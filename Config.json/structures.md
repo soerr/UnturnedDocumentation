@@ -5,6 +5,8 @@ authors: MCrow
 published: true
 ---
 
+![structures](assets/structures.png)
+
 ```json
 "Structures": {
   "Decay_Time": 604800,

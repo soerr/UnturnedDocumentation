@@ -5,6 +5,8 @@ authors: MCrow
 published: true
 ---
 
+![vehicles](assets/vehicles.png)
+
 ```json
 "Vehicles": {
   "Decay_Time": 604800.0,

@@ -5,6 +5,8 @@ authors: MCrow
 published: true
 ---
 
+![barricades](assets/barricades.png)
+
 ```json
 "Barricades": {
   "Decay_Time": 604800,

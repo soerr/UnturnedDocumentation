@@ -5,6 +5,8 @@ authors: MCrow
 published: true
 ---
 
+![zombies](assets/zombies.png)
+
 ```json
 "Zombies": {
   "Spawn_Chance": 0.2,
