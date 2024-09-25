@@ -72,14 +72,127 @@ Percent chance (represented as a decimal) for any given zombie to drop loot. Val
 
 ![](assets/zombies_loot_chance.png)
 
+### Crawler_Chance
+The chance for a zombie to spawn as a crawler. Value should be within a range of **0.0** to **0.5**.
 
-| Zombie Type | Picture | 
-| --- | --- |
-| Crawler | ![](assets/zombie_crawler.png) |
-| Sprinter | ![](assets/zombie_sprinter.png) |
-| Flanker | ![](assets/zombie_flanker.png) |
-| Burner | ![](assets/zombie_burner.png) |
-| Acid | ![](assets/zombie_acid.png) |
+![](assets/zombie_crawler.png)
+
+### Sprinter_Chance
+The chance for a zombie to spawn as a sprinter. Value should be within a range of **0.0** to **0.5**.
+
+![](assets/zombie_sprinter.png)
+
+### Flanker_Chance
+The chance for a zombie to spawn as a flanker. Value should be within a range of **0.0** to **0.5**.
+
+![](assets/zombie_flanker.png)
+
+### Burner_Chance
+The chance for a zombie to spawn as a burner. Value should be within a range of **0.0** to **0.5**.
+
+![](assets/zombie_burner.png)
+
+### Acid_Chance
+The chance for a zombie to spawn as an acid zombie. Value should be within a range of **0.0** to **0.5**.
+
+![](assets/zombie_acid.png)
+
+### Boss_Electric_Chance
+The chance for a zombie to spawn as an electric boss. Value should be within a range of **0.0** to **0.5**.
+
+![](assets/zombie_electric_boss.png)
+
+### Boss_Wind_Chance
+The chance for a zombie to spawn as a wind boss. Value should be within a range of **0.0** to **0.5**.
+
+![](assets/zombie_wind_boss.png)
+
+### Boss_Fire_Chance
+The chance for a zombie to spawn as a fire boss. Value should be within a range of **0.0** to **0.5**.
+
+![](assets/zombie_fire_boss.png)
+
+### Spirit_Chance
+The chance for a zombie to spawn as a spirit. Value should be within a range of **0.0** to **0.5**.
+
+![](assets/zombie_spirit.png)
+
+### DL_Red_Volatile_Chance
+The chance for a zombie to spawn as a red volatile. Value should be within a range of **0.0** to **0.5**.
+
+![](assets/zombie_volatile.png)
+
+> **💡 PRO TIP**  
+> Volatile zombies can only spawn at night.
+
+### DL_Blue_Volatile_Chance
+The chance for a zombie to spawn as a blue volatile. Value should be within a range of **0.0** to **0.5**.
+
+![](assets/zombie_blue_volatile.png)
+
+### Boss_Elver_Stomper_Chance
+The chance for a zombie to spawn as an Elver stomper boss. Value should be within a range of **0.0** to **0.5**.
+
+### Boss_Kuwait_Chance
+The chance for a zombie to spawn as a Kuwait boss. Value should be within a range of **0.0** to **0.5**.
+
+### Respawn_Day_Time
+The time in seconds it takes for a zombie to respawn during the day.
+
+### Respawn_Night_Time
+The time in seconds it takes for a zombie to respawn during the night.
+
+### Respawn_Beacon_Time
+The time in seconds it takes for a zombie to respawn during a horde beacon.
+
+### Quest_Boss_Respawn_Interval
+How many seconds it takes for a boss zombie spawned from a quest to attempt to spawn a new boss zombie. This setting is useful to prevent players from easily farming boss-tier loot. 
+
+For example Kaiser Zombie Boss zombie from the quest on Germany map.
+
+### Damage_Multiplier
+Multiplier for the damage dealt by zombies. **0.75** means **75%** of the default damage.
+
+The default damage of normal zombies on official maps is **15**, so with **0.75** multiplier the damage they deal is **11**.
+
+### Armor_Multiplier
+Multiplier for the armor of zombies when they are hit in the head. 
+
+If you want to modify the armor of zombies when they are hit in other parts of the body, you can use the **NonHeadshot_Armor_Multiplier** setting.
+
+The lower the value the less damage zombies take. 
+
+For example setting this value to **0.5** will make zombies take **50%** less damage, so it's like they would have **200** HP instead of **100**, which is the default value on official maps.
+
+### Backstab_Multiplier
+Multiplier for the damage dealt by backstabbing zombies. Backstabbing is hitting a zombie in the back.
+
+### NonHeadshot_Armor_Multiplier
+Multiplier for the armor of zombies when they are not hit in the head.
+
+### Beacon_Experience_Multiplier
+Multiplier for the experience gained from killing zombies during a horde beacon.
+
+### Full_Moon_Experience_Multiplier
+Multiplier for the experience gained from killing zombies during a full moon night.
+
+### Min_Drops
+Minimum number of items dropped by a normal, crawler, sprinter, flanker, burner, acid, and spirit zombies.
+
+### Max_Drops
+Maximum number of items dropped by a normal, crawler, sprinter, flanker, burner, acid, and spirit zombies.
+
+### Min_Mega_Drops
+Minimum number of items dropped by a mega zombie.
+
+### Max_Mega_Drops
+Maximum number of items dropped by a mega zombie.
+
+### Min_Boss_Drops
+Minimum number of items dropped by a boss zombie.
+
+### Max_Boss_Drops
+Maximum number of items dropped by a boss zombie.
 
 ### Video Tutorial
 Check out our video tutorial on how to increase number of items dropped by zombies and loot on your server.
