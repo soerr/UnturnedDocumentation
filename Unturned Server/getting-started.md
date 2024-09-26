@@ -12,8 +12,17 @@ Follow this documentation to learn all the necessary steps to start your own Unt
 
 ![](assets/wave_hello.png)
 
+### How to start?
+In the next page you will learn how to set up Unturned server on your computer. This is the best way to start if you are new to hosting servers. You can play with your friends and learn how everything works and get your first hands-on experience.
+
+After that I recommend getting a server from a third-party hosting provider. This way you can have your server online 24/7 and you can start building a community. 
+
+Anyways, continue to the next and let's get started!
+
 ### Is it worth it?
-It's definitely worth it if you have never done it before. You will get to learn a lot.
+If you want to host a server to play with friends, it's a great experience to be an admin on your own server. You should do it. You will get to know the game better and possibly decide to open a public server. 
+
+Is making a public server worth it? Is anyone gonna play on it?
 
 Over 20k unique players play Unturned every day on multiplayer servers according to [Battlemetrics](https://www.battlemetrics.com/servers/unturned/stats). At the same time, there are around 2,000 servers online. 
 
