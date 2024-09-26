@@ -3,6 +3,7 @@ position: 2
 title: Permissions
 authors: MCrow
 published: true
+description: Learn how to set up ranks and permissions on your Unturned server with Rocket.
 ---
 
 Rocket permissions system allows you to define groups which are also known as ranks or roles. Each group can have a set of permissions to execute certain commands or actions.  

@@ -3,6 +3,7 @@ position: 3
 title: Plugins
 authors: MCrow
 published: true
+description: Learn where to download and how to install plugins on your Unturned server with Rocket.
 ---
 
 ### Download Plugins

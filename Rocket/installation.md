@@ -3,6 +3,7 @@ position: 0
 title: Installation
 authors: MCrow
 published: true
+description: Learn how to install Rocket on your Unturned server.
 ---
 
 Rocket is a plugin framework for Unturned that allows you to install and manage plugins on your server. It was created in 2014 by [fr34kyn01535](https://github.com/fr34kyn01535) and is now being maintained by [Smartly Dressed Games](https://smartlydressedgames.com/).

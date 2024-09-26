@@ -3,6 +3,7 @@ position: 6
 title: Commands
 authors: MCrow
 published: true
+description: List of vanilla player commands that can be used in-game on the server as an admin.
 ---
 
 This is a list of vanilla player commands that can be used in-game on the server as an admin by typing them in the chat.

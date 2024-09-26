@@ -3,6 +3,7 @@ position: 1
 title: Getting Started
 authors: MCrow
 published: true
+description: Learn how to start your own Unturned server and build a community.
 ---
 
 Starting your own Unturned server is a great experience. You can do it just to play with your friends by your own rules or open a public server and build a community.

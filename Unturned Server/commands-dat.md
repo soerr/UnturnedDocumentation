@@ -3,6 +3,7 @@ position: 5
 title: Commands.dat
 authors: MCrow
 published: true
+description: List of options for the Commands.dat file that can be used to configure your Unturned server.
 ---
 
 The **Commands.dat** file is key to setting up and customizing your Unturned server. It allows you to configure the server's map, name, slots, and other options. This guide provides a full list of commands for the **Commands.dat** file, along with descriptions of their functions and how to use them properly.

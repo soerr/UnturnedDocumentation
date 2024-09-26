@@ -3,6 +3,7 @@ position: 7
 title: Cheats Commands
 authors: MCrow
 published: true
+description: List of vanilla commands that can be used in-game on the server only if cheats are enabled on the server.
 ---
 
 In order to be able to use cheats commands, you need to have enabled cheats in the server Commands.dat file. You can do this by simply adding the `cheats` to the file.

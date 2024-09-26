@@ -3,6 +3,7 @@ position: 3
 title: Third-Party Hosting
 authors: MCrow
 published: true
+description: Learn about third-party hosting and how to choose the right hosting company for your Unturned server.
 ---
 
 Third-party means that you are not hosting the server on your own computer or a dedicated machine. Instead, you are renting a server from a hosting company.  
