@@ -3,6 +3,7 @@ position: 2
 title: Self-Hosting
 authors: MCrow
 published: true
+description: Learn how to make your own Unturned server on Windows and play with your friends.
 ---
 
 ![self hosting](assets/self_hosting.jpg)
