@@ -6,6 +6,8 @@ published: true
 description: Learn where to download and how to install plugins on your Unturned server with Rocket.
 ---
 
+Plugins are server-side modifications that add new features and functionality to your Unturned server.
+
 ### Download Plugins
 Here's list of some popular websites where you can find free and paid plugins for your Unturned server:
 - [restoremonarchy.com](https://restoremonarchy.com/plugins)
