@@ -16,8 +16,6 @@ The server specs depend on the map and the number of players.
 
 Ath the beginning I would recommend getting a server with at least 2GB of RAM and 1 CPU core. If you plan on hosting a server with large map and lots of mods, you might need more 3GB of RAM or more.
 
-![alt text](assets/server_ram_hosting.png)
-
 If you're buying from a hosting that sells Player Slots, I recommend getting a server with 24 slots. You can always upgrade it later if needed.
 
 ![player slots hosting](assets/player_slots_hosting.png)
