@@ -10,6 +10,8 @@ Starting your own Unturned server is a great experience. You can do it just to p
 
 Follow this documentation to learn all the necessary steps to start your own Unturned server.
 
+![](assets/wave_hello.png)
+
 ### Is it worth it?
 It's definitely worth it if you have never done it before. You will get to learn a lot.
 
