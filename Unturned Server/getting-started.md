@@ -7,12 +7,10 @@ published: true
 
 Starting your own Unturned server is a great experience. You can do it just to play with your friends by your own rules or open a public server and build a community.
 
-
-
 Follow this documentation to learn all the necessary steps to start your own Unturned server.
 
 ### Is it worth it?
-It's definitely worth it if you have never done it before. You will get to learn a lot. You can also make some money if you decide to open a public server and monetize it.
+It's definitely worth it if you have never done it before. You will get to learn a lot.
 
 Over 20k unique players play Unturned every day on multiplayer servers according to [Battlemetrics](https://www.battlemetrics.com/servers/unturned/stats). At the same time, there are around 2,000 servers online. 
 
