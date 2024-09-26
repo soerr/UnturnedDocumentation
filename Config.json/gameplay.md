@@ -3,7 +3,10 @@ position: 13
 title: Gameplay
 authors: MCrow
 published: true
+description: Gameplay settings can control the repair level, hitmarkers, crosshair, and other gameplay features.
 ---
+
+Gameplay settings can control the repair level, hitmarkers, crosshair, and other gameplay features.
 
 ```json
 "Gameplay": {
@@ -39,3 +42,6 @@ published: true
   "ThirdPerson_SpreadMultiplier": 2.0
 }
 ```
+
+### Work in progress
+We are still working on this page. If you have any suggestions or would like to contribute, please let us know!

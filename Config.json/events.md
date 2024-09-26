@@ -3,7 +3,10 @@ position: 12
 title: Events
 authors: MCrow
 published: true
+description: Events settings can adjust the frequency and duration of weather events, airdrops, and arena settings.
 ---
+
+Events settings can adjust the frequency and duration of weather events, airdrops, and arena settings.
 
 ```json
 "Events": {
@@ -39,3 +42,6 @@ published: true
   "Arena_Compactor_Shrink_Factor": 0.5
 }
 ```
+
+### Work in progress
+We are still working on this page. If you have any suggestions or would like to contribute, please let us know!

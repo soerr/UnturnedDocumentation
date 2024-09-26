@@ -3,9 +3,12 @@ position: 8
 title: Barricades
 authors: MCrow
 published: true
+description: Barricades settings can adjust the decay time and armor of barricades, as well as restrict placement on vehicles.
 ---
 
 ![barricades](assets/barricades.png)
+
+Barricades settings can adjust the decay time and armor of barricades, as well as restrict placement on vehicles.
 
 ```json
 "Barricades": {
@@ -22,3 +25,6 @@ published: true
   "Max_Trap_Distance_From_Hull": 16.0
 }
 ```
+
+### Work in progress
+We are still working on this page. If you have any suggestions or would like to contribute, please let us know!

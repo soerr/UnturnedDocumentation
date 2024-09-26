@@ -194,6 +194,9 @@ Minimum number of items dropped by a boss zombie.
 ### Max_Boss_Drops
 Maximum number of items dropped by a boss zombie.
 
+### Work in progress
+We are still working on this page. If you have any suggestions or would like to contribute, please let us know!
+
 ### Video Tutorial
 Check out our video tutorial on how to increase number of items dropped by zombies and loot on your server.
 

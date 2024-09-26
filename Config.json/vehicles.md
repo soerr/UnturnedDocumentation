@@ -3,9 +3,12 @@ position: 5
 title: Vehicles
 authors: MCrow
 published: true
+description: Vehicles settings control their decay time, respawn time, and the number of vehicles that can spawn on the server.
 ---
 
 ![vehicles](assets/vehicles.png)
+
+Vehicles settings control their decay time, respawn time, and the number of vehicles that can spawn on the server.
 
 ```json
 "Vehicles": {
@@ -30,6 +33,9 @@ published: true
   "Max_Instances_Insane": 64
 }
 ```
+
+### Work in progress
+We are still working on this page. If you have any suggestions or would like to contribute, please let us know!
 
 ### Video Tutorial
 Check out our video tutorial on how to increase loot and number of vehicles and loot on your server.

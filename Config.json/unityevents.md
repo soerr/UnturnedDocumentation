@@ -3,9 +3,10 @@ position: 3
 title: UnityEvents
 authors: MCrow
 published: true
+description: UnityEvents is a section of debug options used for certain community-made game modifications.
 ---
 
-UnityEvents is a section of debug options which probably game developer uses to test some feature.
+UnityEvents is a section of debug options used for certain community-made game modifications.
 
 It doesn't include any interesting options, so I recommend leaving it as it is.
 
