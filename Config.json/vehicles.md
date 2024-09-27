@@ -42,12 +42,16 @@ If a vehicle has not been driven after this many seconds, it will start to be da
 ### Decay_Damage_Per_Second
 The amount of damage a vehicle takes per second when it is decaying. The default is **0.1**.
 
+![vehicle offroader](assets/vehicle_offroader.png)
+
 So for example if vehicle is **Offroader** with **600** HP, it will lose **0.1** HP every second. Meaning it will take **6000** seconds = **1 hour and 40 minutes** to destroy the vehicle.
 
 Remember that the vehicle will only start to decay after the `Decay_Time` has passed. Which is pretty rare for a vehicle to be left untouched for a week.
 
 ### Has_Battery_Chance
 The chance that a vehicle will spawn naturally with a battery. The default is **1.0** (100%).
+
+![item battery](assets/item_battery.png)
 
 ### Min_Battery_Charge
 The minimum charge a battery can have when a vehicle spawns naturally. The default is **0.8** (80%).
@@ -56,6 +60,7 @@ The minimum charge a battery can have when a vehicle spawns naturally. The defau
 The maximum charge a battery can have when a vehicle spawns naturally. The default is **1.0** (100%).
 
 ### Has_Tire_Chance
+![item tire](assets/item_tire.png)
 The chance that a vehicle will spawn naturally with all tires. The default is **1.0** (100%).
 
 For example if vehicle has **4** tire slots and `Has_Tire_Chance` is **0.5**, then for each slot there is a **50%** chance that it will spawn with a tire. Meaning the vehicle might spawn with **0-4** tires.
@@ -96,6 +101,7 @@ The multiplier for the damage dealt by melee weapons like Pocketknife, Sledgeham
 If you want these weapons to deal less damage to vehicles, you can lower this value.
 
 ### Melee_Repair_Multiplier
+![item blowtorch](assets/item_blowtorch.png)
 The multiplier for the repair amount dealt by Blowtorch and its equivalents from mods. The default is **1.0**.
 
 If you want blowtorch to repair vehicles faster, you can increase this value or decrease it if you want it to repair slower.
