@@ -61,7 +61,7 @@ For example, if you're server is using **Washington** map and `Max_Instances_Med
 
 I recommend increasing this value to make animals more common on your server. However remember that the number of animals that will spawn naturally is also limited by the number of spawn-points on every map. Washington only has **59** spawn-points for animals, so even if you set `Max_Instances_Medium` to **64**, only **59** animals will spawn.
 
-Number of spawn-points on official survival maps:
+Number of animal spawn-points on official survival maps:
 - **PEI** - 60
 - **Washington** - 59
 - **Yukon** - 35
