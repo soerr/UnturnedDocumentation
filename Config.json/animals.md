@@ -68,5 +68,8 @@ Number of animal spawn-points on official survival maps:
 - **Russia** - 85
 - **Germany** - 126
 
+> **💡 PRO TIP**  
+> You can set up more spawn-points for animals on any map and modify their loot using our [Animal Manager](https://restoremonarchy.com/plugins/animalmanager) plugin.
+
 ### Weapons_Use_Player_Damage
 Whether or not a weapon's player damage values should be used instead of the weapon's animals damage values. Most weapons do less damage to players than they do to zombies. When set to **true**, weapons will usually be weaker against animals than they are normally. 
