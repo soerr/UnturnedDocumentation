@@ -73,3 +73,8 @@ Number of animal spawn-points on official survival maps:
 
 ### Weapons_Use_Player_Damage
 Whether or not a weapon's player damage values should be used instead of the weapon's animals damage values. Most weapons do less damage to players than they do to zombies. When set to **true**, weapons will usually be weaker against animals than they are normally. 
+
+### Video Tutorial
+Learn how to configure animals settings with our video tutorial.
+
+[video=67a1080c-4623-499d-ba3b-3ce017eb9d5b]

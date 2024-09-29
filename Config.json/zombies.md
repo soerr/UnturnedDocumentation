@@ -197,7 +197,11 @@ Maximum number of items dropped by a boss zombie.
 ### Work in progress
 We are still working on this page. If you have any suggestions or would like to contribute, please let us know!
 
-### Video Tutorial
+### Video Tutorials
 Check out our video tutorial on how to increase number of items dropped by zombies and loot on your server.
 
 [video=affd02b0-e416-4fbe-8363-86e4b2639813] 
+
+We also have a video about all different type of zombies in Unturned.
+
+[video=39e125b6-ea12-4cf4-a0ce-87905ee2841e]
