@@ -80,7 +80,7 @@ If you have disabled `Allow_Item_Placement_On_Vehicle`, then this setting will n
 You might wanna disable this setting if you don't want players to build Barbed Wire Fence on their vehicles. 💀
 
 ### Max_Item_Distance_From_Hull
-The maximum distance from the vehicle's hull that items can be placed. The default is **64.0**.
+The maximum distance from the vehicle's hull that items can be placed. The default is **64.0** meters.
 
 ![too far from haul](assets/too_far_from_haul.png "This is what it looks like on player's screen")
 
