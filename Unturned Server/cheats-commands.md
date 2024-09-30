@@ -15,11 +15,15 @@ If you want to use commands to spawn in items and vehicles, I recommend installi
 ### Give
 The `give` command is used to spawn in items.
 
-**Syntax:** `/give <item> [amount]`
+**Syntax:** `/give <item>/[amount]`
 - `<item>`: The id of the item to spawn.
 - `[amount]`: The number of items to spawn. If not specified, the default amount is 1.
 
-**Example:** `/give MCrow 363 5`
+**Example:** `/give MCrow 363/5`
+
+> **💡 PRO TIP**  
+> When you are specifying the amount of items, you need to use the `/` character to separate the item id and the amount.
+
 
 ### Vehicle
 The `vehicle` command is used to spawn in vehicles at your current position.
@@ -32,9 +36,9 @@ The `vehicle` command is used to spawn in vehicles at your current position.
 ### Experience
 The `experience` command is used to give experience to a player.
 
-**Syntax:** `/experience <player> <amount>`
+**Syntax:** `/experience [player]/<amount>`
 
-**Example:** `/experience MCrow 1000`
+**Example:** `/experience 1000`, `/experience MCrow/500`
 
 ### Animal
 The `animal` command is used to spawn in animals at your current position.
