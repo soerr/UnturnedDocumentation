@@ -81,7 +81,3 @@ If set to true, items will obstruct the respawn of resource objects. For example
 Remember when players used to hide lockers in trees. I did that too :D
 
 ![object resource obstruct](assets/object_resource_obstruct.png)
-
-
-### Work in progress
-We are still working on this page. If you have any suggestions or would like to contribute, please let us know!
