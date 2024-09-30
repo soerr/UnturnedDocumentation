@@ -126,7 +126,11 @@ Number of vehicle spawn-points on official survival maps:
 - **Russia** - 169
 - **Germany** - 90
 
-### Video Tutorial
-Check out our video tutorial on how to increase loot and number of vehicles and loot on your server.
+### Video Tutorials
+The video tutorial about Vehicles section in Config.json file.
+
+[video=49da7869-07bf-4640-8d3b-a9ad7af056b8]
+
+Check out our video tutorial on how to increase loot and number of vehicles on your server.
 
 [video=affd02b0-e416-4fbe-8363-86e4b2639813] 

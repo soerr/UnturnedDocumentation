@@ -18,7 +18,7 @@ The `give` command is used to spawn in items.
 **Syntax:** `/give [player]/<item>/[amount]`
 - `[player]`: The name of the player to give the item to. If not specified, the item is given to the player who executed the command.
 - `<item>`: The id of the item to spawn.
-- `[amount]`: The number of items to spawn. If not specified, the default amount is 1.
+- `[amount]`: The 
 
 **Example:** `/give 15/2`, `/give 363`, `/give MCrow/254/5`
 
