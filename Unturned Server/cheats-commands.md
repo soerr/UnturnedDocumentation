@@ -50,3 +50,8 @@ The `animal` command is used to spawn in animals at your current position.
 
 **Example:** `/animal 3`
 
+
+### Video Tutorial
+Here is a video tutorial on how to use cheats commands in Unturned.
+
+[video=bc9386bf-bd04-419e-a032-a4f456bc1a87]
