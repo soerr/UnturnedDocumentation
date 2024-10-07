@@ -49,7 +49,7 @@ Number of item spawn nodes on official maps:
 ### Despawn_Dropped_Time
 How many seconds it takes for an item dropped on the ground to disappear.  
 
-For example items dropped by players when they die. It is set to **600** seconds by default, so it means players have **15** minutes to get back to their body and pick up their items.
+For example items dropped by players when they die. It is set to **600** seconds by default, so it means players have **10** minutes to get back to their body and pick up their items.
 
 ### Despawn_Natural_Time
 How many seconds it takes for an item that naturally spawned on the ground to disappear.  
