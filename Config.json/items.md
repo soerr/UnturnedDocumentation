@@ -118,7 +118,11 @@ Clothing-specific replacement for `Has_Durability`. If **false**, clothing quali
 ### Weapons_Have_Durability
 Melee and gun replacement for `Has_Durability`. Defaults to **true**. If **false**, weapons quality doesn't decrease when used.
 
-### Video Tutorial
+### Video Tutorials
+Video tutorial explaining all of the above settings.
+
+[video=cef002fb-7f43-43bc-97d8-26b1aa72925b]
+
 Check out our video tutorial on how to increase spawn chance of items and loot on your server.
 
 [video=affd02b0-e416-4fbe-8363-86e4b2639813]
