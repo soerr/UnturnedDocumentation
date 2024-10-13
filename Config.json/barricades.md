@@ -29,9 +29,9 @@ Barricades settings can adjust the decay time and armor of barricades, as well a
 ### Decay_Time
 The time in seconds it takes for a barricade to decay. The default is **604800** seconds (1 week).
 
-If owner of the barricade didn't join the server for a `Decay_Time`, the barricade will not be loaded on the next server restart.
+Works the same way as `Decay_Time` of structures.
 
-When server is loading barricades it checks if the owner was online in the last `Decay_Time`. If not, the barricade is removed.
+If owner of the barricade didn't join the server for a `Decay_Time`, the barricade will not be loaded on the next server restart. When server is loading barricades it checks if the owner was online in the last `Decay_Time`. If not, the barricade is not loaded and removed.
 
 ### Armor_Lowtier_Multiplier
 Damage multiplier for low-tier barricades such as those made from wood like plates, barbed wire and sandbags.
@@ -92,3 +92,8 @@ The maximum distance from the vehicle's hull that traps can be placed. The defau
 
 ### We all know why Nelson added these settings 😂
 ![apc barbed wire](assets/apc_barbed_wire.png "Unturned vibes")
+
+### Video Tutorial
+Learn how to wipe structures, barricades and players data on your server with this video tutorial.
+
+[video=46e9cb7d-f2af-4a82-99af-3fead59527bc]
