@@ -9,6 +9,7 @@ description: Animals settings can control the number of animals that spawn on yo
 ![animals](assets/animals.png)
 
 Animals settings can control the number of animals that spawn on your server, their armor and damage multipliers.
+[Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Animals)
 
 ```json
 "Animals": {

@@ -8,6 +8,7 @@ published: true
 ![zombies](assets/zombies.png)
 
 Zombies settings allow you to configure the behavior of zombies on your server. You can change the spawn chance, loot chance, and other settings to make the game more challenging or easier.
+[Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Zombies)
 
 ```json
 "Zombies": {
@@ -193,6 +194,9 @@ Minimum number of items dropped by a boss zombie.
 
 ### Max_Boss_Drops
 Maximum number of items dropped by a boss zombie.
+
+### Slow_Movement
+Whether or not zombies should move at the same speed as a walking player. When set to "false", zombies move 20% faster than the player. 
 
 ### Work in progress
 We are still working on this page. If you have any suggestions or would like to contribute, please let us know!

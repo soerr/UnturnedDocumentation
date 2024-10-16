@@ -9,6 +9,7 @@ description: Vehicles settings control their decay time, respawn time, and the n
 ![vehicles](assets/vehicles.png)
 
 Vehicles settings control their decay time, respawn time, and the number of vehicles that can spawn on the server.
+[Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Vehicles)
 
 ```json
 "Vehicles": {

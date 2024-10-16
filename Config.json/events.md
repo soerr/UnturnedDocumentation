@@ -7,6 +7,7 @@ description: Events settings can adjust the frequency and duration of weather ev
 ---
 
 Events settings can adjust the frequency and duration of weather events, airdrops, and arena settings.
+[Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Events)
 
 ```json
 "Events": {

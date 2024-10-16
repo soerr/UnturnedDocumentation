@@ -7,6 +7,7 @@ description: UnityEvents is a section of debug options used for certain communit
 ---
 
 UnityEvents is a section of debug options used for certain community-made game modifications.
+[Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Unity_Events)
 
 It doesn't include any interesting options, so I recommend leaving it as it is.
 

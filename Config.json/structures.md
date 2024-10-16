@@ -9,6 +9,7 @@ description: Structures settings can adjust the decay time and armor of structur
 ![structures](assets/structures.png)
 
 Structures settings can adjust the decay time and armor of structures, as well as the damage and repair multipliers for guns and melee weapons.
+[Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Structures)
 
 ```json
 "Structures": {
