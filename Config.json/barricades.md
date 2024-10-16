@@ -9,7 +9,8 @@ description: Barricades settings can adjust the decay time and armor of barricad
 ![barricades](assets/barricades.png)
 
 Barricades settings can adjust the decay time and armor of barricades, as well as restrict placement on vehicles.
-[Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Barricades)
+
+Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Barricades) and our experience.
 
 ```json
 "Barricades": {

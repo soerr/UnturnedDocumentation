@@ -8,7 +8,8 @@ published: true
 ![zombies](assets/zombies.png)
 
 Zombies settings allow you to configure the behavior of zombies on your server. You can change the spawn chance, loot chance, and other settings to make the game more challenging or easier.
-[Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Zombies)
+
+Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Zombies) and our experience.
 
 ```json
 "Zombies": {
