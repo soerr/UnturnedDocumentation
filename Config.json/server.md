@@ -18,6 +18,7 @@ Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#
   "Timeout_Queue_Seconds": 15.0,
   "Timeout_Game_Seconds": 30.0,
   "Max_Packets_Per_Second": 50.0,
+  "Join_Rate_Limit_Window_Seconds": 40.0,
   "Rate_Limit_Kick_Threshold": 10,
   "Fake_Lag_Threshold_Seconds": 3.0,
   "Fake_Lag_Log_Warnings": false,
@@ -72,6 +73,13 @@ Same as `Timeout_Queue_Seconds`, but for players who are already in the game. If
 
 ### Max_Packets_Per_Second
 The maximum number of packets one player can send to the server per second. The packets can be for example chat messages, player movement, etc. I don't recommend changing this value.
+
+### Join_Rate_Limit_Window_Seconds
+The join_Rate_Limit_Window_Seconds sets a time period during which the server counts how many times an IP address tries to connect. If an address connects too many times within this period, it gets blocked, but once the time is up, the count resets.
+
+If ready-to-connect messages are received more than twice from the same client in less than this many seconds they will be kicked.
+
+![join_rate_limit_window_seconds](assets/join_rate_limit_window_seconds.png "Player screen after being kicked for reconnecting 3 times to the same server in 40 seconds")
 
 ### Rate_Limit_Kick_Threshold
 If a rate-limited method is called this many times within cooldown window the client will be kicked.
