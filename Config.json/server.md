@@ -173,3 +173,8 @@ Whether or not the Econ hash is validated with the server. This prevents clients
 Using a Steam Fake IP allows players to join your server by IP address without port forwarding. It also protects your server from DDoS attacks, because the traffic is routed through Steam servers. Another great advantage of using Fake IP is that it won't reveal your server's real IP address. 
 
 To learn more about Fake IP, check out the [official documentation](https://docs.smartlydressedgames.com/en/stable/servers/fake-ip.html).
+
+### Video Tutorial
+If you prefer video format, here is a video tutorial on how to configure the server settings in the `Config.json` file:
+
+[video=0e2dec24-4bb9-4886-af77-1e01faf5e4a6]
