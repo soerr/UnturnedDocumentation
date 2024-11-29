@@ -9,7 +9,7 @@ description: Players settings allow you to adjust the health, food, water, and v
 Players settings allow you to adjust the health, food, water, and virus levels of players, as well as the damage and regeneration rates of these levels. You can also adjust the experience, detection radius, and other player settings.
 
 Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#Players) and our experience.
-
+https://i.imgur.com/sRaGyMN.png
 ```json
 "Players": {
   "Health_Default": 100,
