@@ -8,6 +8,11 @@ description: List of vanilla player commands that can be used in-game on the ser
 
 This is a list of vanilla player commands that can be used in-game on the server as an admin by typing them in the chat.
 
+> **💡 PRO TIP**  
+> If you have Rocket or OpenMod installed on your server, instead of using `/` as a separator, you must use ` ` (space) as a separator.  
+> That's why when you want to include space in the message or reason, you must use quotes.   
+For example: `/say "Welcome to our server!" 255 0 0` instead of `/say Welcome to our server!/255/0/0`.
+
 ### Admin
 The `admin` command is used to give a player admin blue hammer. Admin can use all commands and has access to all permissions.
 
@@ -36,10 +41,8 @@ The `ban` command is used to ban a player from the server for a specified time.
 - `[reason]`: The reason for the ban.
 - `[time]`: The duration of the ban in seconds. If not specified, the ban is permanent.
 
-**Example:** `/ban MCrow/Griefing and cross-teaming/3600`
-
-> **💡 PRO TIP**  
-> Remember to use the quotation marks for the reason if it has more than one word.
+**Example Vanilla:** `/ban MCrow/Griefing and cross-teaming/3600`  
+**Example with Rocket/OpenMod:** `/ban MCrow "Griefing and cross-teaming" 3600`
 
 ### Unban
 The `unban` command is used to unban a player from the server. 
@@ -59,7 +62,8 @@ The `kick` command is used to kick a player from the server.
 - `<player>`: The name of the player to kick.
 - `[reason]`: The reason for the kick.
 
-**Example:** `/kick MCrow/Abusive language`
+**Example Vanilla:** `/kick MCrow/Abusive language`  
+**Example with Rocket/OpenMod:** `/kick MCrow "Abusive language"`
 
 ### Spy
 The `spy` command is used to take a screenshot of a player's screen. After using the command, you can view when you press the `ESC` key.
@@ -108,7 +112,9 @@ The `say` command is used to send a message to all players on the server.
 
 **Syntax:** `/say <message>/[r]/[g]/[b]`
 
-**Example:** `/say Welcome to our server!/255/0/0`
+**Example Vanilla:** `/say Welcome to our server!/255/0/0`  
+**Example with Rocket/OpenMod:** `/say "Welcome to our server!" 255 0 0`
+
 
 ### Teleport
 The `teleport` command is a complex command that can be used in different ways to teleport yourself or other players.
@@ -121,7 +127,8 @@ The `teleport` command is a complex command that can be used in different ways t
     - `wp`: Teleports you to a waypoint, can only be used to teleport yourself.
     - `node`: Name of the node like city or other location. For example, `Seattle`, `Alberton`, `Airport`.
 
-**Example:** `/teleport MCrow/Seattle`, `/teleport bed`, `/teleport wp`, `/teleport Seattle`
+**Examples Vanilla:** `/teleport MCrow/Seattle`, `/teleport bed`, `/teleport wp`, `/teleport Seattle`  
+**Examples with Rocket/OpenMod:** `/teleport MCrow Seattle`, `/teleport bed`, `/teleport wp`, `/teleport Seattle`
 
 > **💡 PRO TIP**  
 > When using the `/teleport wp` command, you can set a waypoint by right clicking on the map to set a marker.
