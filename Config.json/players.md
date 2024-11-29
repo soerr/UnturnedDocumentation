@@ -56,7 +56,58 @@ Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#
   "Allow_Per_Character_Saves": false,
   "Enable_Terrain_Color_Kick": true
 }
-```
 
-### Work in progress
-We are still working on this page. If you have any suggestions or would like to contribute, please let us know!
+```
+### Health_Default
+Determines the amount of health a player spawns with. Must be between **0** and **255**.
+- Default: **100**
+- Example: Setting this to **200** means players will spawn with double the health.
+
+---
+
+### Health_Regen_Min_Food
+The minimum amount of food required for health regeneration to begin.
+- Default: **90**
+- Example: Lowering this to **50** makes it easier for health to regenerate with less food.
+
+---
+
+### Health_Regen_Min_Water
+The minimum amount of water required for health regeneration to begin.
+- Default: **90**
+- Example: Reducing this to **60** allows health to regenerate even with lower hydration levels.
+
+---
+
+### Health_Regen_Ticks
+Controls how often health regenerates, measured in ticks. A lower value regenerates health faster.
+- Default: **60**
+- Example: Setting this to **30** will make health regenerate twice as quickly.
+
+---
+
+### Food_Default
+The starting amount of food players have when they spawn, between **0** and **255**.
+- Default: **100**
+- Example: If this is set to **85**, players spawn with slightly less food.
+
+---
+
+### Water_Default
+The starting amount of water players have when they spawn, between **0** and **255**.
+- Default: **100**
+- Example: Setting this to **85** means players start with less hydration.
+
+---
+
+### Virus_Default
+The immunity level players start with upon spawning. Must be between **0** and **255**.
+- Default: **100**
+- Example: Lowering this to **50** means players are more susceptible to infections.
+
+---
+
+### Virus_Infect
+Threshold at which immunity begins to deplete until treated. Setting to **0** disables untreated infections.
+- Default: **50**
+- Example: Raising this to **75** makes it harder for infections to occur.
