@@ -59,154 +59,119 @@ Based on [Official Unturned Wiki](https://unturned.wiki.gg/wiki/Gameplay_config#
 }
 
 ```
-### Health_Default
-Sets the amount of health players start with. Must be between **0** and **255**.
 
+### Health_Default
+Determines the amount of health a player spawns with. Must be between **0** and **255**.
 
 ### Health_Regen_Min_Food
-The minimum food level required to kickstart health regeneration.
-
+The minimum amount of food required for health regeneration to start.
 
 ### Health_Regen_Min_Water
-The minimum water level needed to trigger health regeneration.
-
+The minimum amount of water required for health regeneration to start.
 
 ### Health_Regen_Ticks
-Defines how frequently health regenerates. A lower value speeds up the process.
-
+How often health regenerates. A lower value regenerates health faster.
 
 ### Food_Default
-Specifies the starting food level for players. Must be between **0** and **255**.
-
+Determines the amount of food a player spawns with. Must be between **0** and **255**.
 
 ### Water_Default
-Specifies the initial water level for players. Must be between **0** and **255**.
-
+Determines the amount of water a player spawns with. Must be between **0** and **255**.
 
 ### Virus_Default
-Determines the immunity level players spawn with. Must be between **0** and **255**.
-
+Determines the amount of immunity a player spawns with. Must be between **0** and **255**.
 
 ### Virus_Infect
-Sets the immunity threshold at which infections start. Immunity will deplete unless treated. Setting this to **0** disables untreated infections.
-
+Threshold at which immunity begins to deplete until treated. Setting to **0** disables untreated infections.
 
 ### Virus_Use_Ticks
-Controls how often immunity decreases when below the infection threshold. A lower value means faster depletion.
-
+Controls how often immunity is depleted when below the infection threshold. A lower value means faster depletion.
 
 ### Virus_Damage_Ticks
-Defines how often players take damage when immunity is fully depleted.
-
+How often the player takes damage when immunity is fully depleted.
 
 ### Leg_Regen_Ticks
-Specifies the duration for recovering from the "Broken Bones" debuff. A lower value reduces recovery time.
-
+Determines the duration for the "Broken Bones" debuff to expire. A lower value reduces the healing time.
 
 ### Bleed_Damage_Ticks
-Determines how frequently players take damage from the "Bleeding" debuff.
-
+How often the player takes damage from the "Bleeding" debuff.
 
 ### Bleed_Regen_Ticks
-Specifies the recovery time for the "Bleeding" debuff. A lower value speeds up recovery.
-
+Determines the duration for the "Bleeding" debuff to expire. A lower value shortens recovery time.
 
 ### Armor_Multiplier
-Sets the damage multiplier for players. Values below **1.0** reduce damage, while values above **1.0** increase it.
-
+Determines the multiplier on any damage the player receives. Values below **1.0** reduce damage and values above **1.0** increase damage.
 
 ### Experience_Multiplier
-Controls the multiplier for experience gained by players.
-
+Determines the multiplier on the amount of experience gained by players.
 
 ### Detect_Radius_Multiplier
-Adjusts how easily animals and zombies detect players. Higher values make detection easier.
-
+Determines the multiplier on how easily animals and zombies detect players. Higher values make detection easier.
 
 ### Ray_Aggressor_Distance
-Defines the distance (in meters) used to determine the "aggressor" in combat. Relevant to the reputation system.
-
+Determines the range in meters used to determine the "aggressor" during combat. Relevant for only the reputation systems.
 
 ### Lose_Skills_PvP
-Specifies the percentage of skills retained after a PvP death. A value of **1** means all skills are retained.
-
+Determines the percentage of skills retained after a PvP related death. If set to **1** all of the player's skills will be kept on death.
 
 ### Lose_Skills_PvE
-Specifies the percentage of skills retained after a PvE death. A value of **1** means all skills are retained.
-
+Determines the percentage of skills retained after a PvE related death. If set to **1** all of the player's skills will be kept on death.
 
 ### Lose_Skill_Levels_PvP
-Sets the number of skill levels lost after a PvP death. A value of **0** means no skill levels are lost.
-
+Determines the number of skill levels lost after a PvP related death. If set to **0** the player will not lose any skill levels on death.
 
 ### Lose_Skill_Levels_PvE
-Specifies the number of skill levels lost after a PvE death. A value of **0** means no skill levels are lost.
-
+Determines the number of skill levels l lost after a PvE related death.. If set to **0** the player will not lose any skill levels on death.
 
 ### Lose_Experience_PvP
-Determines the percentage of experience retained after a PvP death. A value of **1** ensures no experience is lost.
-
+Determines the percentage of experience retained after a PvP related death. If set to **1** the player will not lose any experience on death.
 
 ### Lose_Experience_PvE
-Determines the percentage of experience retained after a PvE death. A value of **1** ensures no experience is lost.
-
+Determines the percentage of experience retained after a PvE related death. If set to **1** the player will not lose any experience on death.
 
 ### Lose_Items_PvP
-Specifies the percentage of items lost on a PvP death. A value of **0** means all items are dropped. Skillset loadouts may override this setting.
-
+Determines the percentage of items lost upon PvP-related death. If set to **0** all items will be lost on death. Keep in mind skillset loadouts override this setting.
 
 ### Lose_Items_PvE
-Specifies the percentage of items lost on a PvE death. A value of **0** means all items are dropped. Skillset loadouts may override this setting.
-
+Determines the percentage of items lost upon PvE-related death. If set to **0** all items will be lost on death. Keep in mind skillset loadouts override this setting.
 
 ### Lose_Clothes_PvP
-Determines if clothing items are dropped upon PvP deaths.
-
+Determines if clothing items are dropped on PvP death.
 
 ### Lose_Clothes_PvE
-Determines if clothing items are dropped upon PvE deaths.
-
+Determines if clothing items are dropped on PvE death.
 
 ### Lose_Weapons_PvP
-Indicates whether weapons in the Primary and Secondary slots are dropped upon PvP deaths.
-
+Determines if weapons in the Primary and Secondary slots are dropped on PvP related deaths.
 
 ### Lose_Weapons_PvE
-Indicates whether weapons in the Primary and Secondary slots are dropped upon PvE deaths.
-
+Determines if weapons in the Primary and Secondary slots are dropped on PvE related deaths.
 
 ### Can_Hurt_Legs
-Specifies whether players can take fall damage.
-
+Determines if players can take fall damage.
 
 ### Can_Break_Legs
-Determines if players can receive the "Broken Bones" debuff.
-
+Determines whether players can gain the "Broken Bones" debuff.
 
 ### Can_Fix_Legs
-Allows players to naturally recover from the "Broken Bones" debuff over time.
-
+Determines whether players can naturally recover from the "Broken Bones" debuff over time.
 
 ### Can_Start_Bleeding
-Indicates whether players can get the "Bleeding" debuff.
-
+Determines whether players can receive the "Bleeding" debuff.
 
 ### Can_Stop_Bleeding
-Allows players to naturally recover from the "Bleeding" debuff over time.
-
+Determines whether players can naturally recover from the "Bleeding" debuff over time.
 
 ### Spawn_With_Max_Skills
-Specifies whether players spawn with all skills at maximum level.
-
+Determines whether players spawn with all skills at their maximum level.
 
 ### Spawn_With_Stamina_Skills
-Determines if players spawn with Cardio, Exercise, Diving, and Parkour skills at their maximum levels.
-
+Determines whether players spawn with Cardio, Exercise, Diving, and Parkour skills at maximum level.
 
 ### Allow_Instakill_Headshots
-Enables instant kills with headshots using ranged weapons for example Ekho, Grizzly, and Timberwolf.
-
+Determines whether players can be instantly killed by a headshot using ranged weapons.
 
 ### Allow_Per_Character_Saves
-Allows players to use multiple character saves enabling separate inventories and stats per character. This is enabled by default in single-player mode but disabled in multiplayer.
+Allows players to use multiple character saves, enabling different inventories and stats per character. This is enabled by default in single player and disabled in multiplayer.
+
 
