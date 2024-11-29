@@ -169,7 +169,7 @@ Determines whether players spawn with all skills at their maximum level.
 Determines whether players spawn with Cardio, Exercise, Diving, and Parkour skills at maximum level.
 
 ### Allow_Instakill_Headshots
-Determines whether players can be instantly killed by a headshot using ranged weapons.
+Determines whether players can be instantly killed by a headshot using ranged weapons like Timberwolf, Grizzly, and Ekho.
 
 ### Allow_Per_Character_Saves
 Allows players to use multiple character saves, enabling different inventories and stats per character. This is enabled by default in single player and disabled in multiplayer.
