@@ -31,12 +31,12 @@ Stop the server and delete the `Adminlist.dat` file which you will find in the s
 ### Ban
 The `ban` command is used to ban a player from the server for a specified time.  
 
-**Syntax:** `/ban <player> [reason] [time]`
+**Syntax:** `/ban <player>/[reason]/[time]`
 - `<player>`: The name or Steam ID of the player to ban.
 - `[reason]`: The reason for the ban.
 - `[time]`: The duration of the ban in seconds. If not specified, the ban is permanent.
 
-**Example:** `/ban MCrow "Griefing and cross-teaming" 3600`
+**Example:** `/ban MCrow/Griefing and cross-teaming/3600`
 
 > **💡 PRO TIP**  
 > Remember to use the quotation marks for the reason if it has more than one word.
@@ -55,11 +55,11 @@ The `unban` command is used to unban a player from the server.
 ### Kick
 The `kick` command is used to kick a player from the server.
 
-**Syntax:** `/kick <player> [reason]`
+**Syntax:** `/kick <player>/[reason]`
 - `<player>`: The name of the player to kick.
 - `[reason]`: The reason for the kick.
 
-**Example:** `/kick MCrow "Abusive language"`
+**Example:** `/kick MCrow/Abusive language`
 
 ### Spy
 The `spy` command is used to take a screenshot of a player's screen. After using the command, you can view when you press the `ESC` key.
@@ -106,14 +106,14 @@ The `airdrop` command is used to call an airdrop.
 ### Say
 The `say` command is used to send a message to all players on the server.
 
-**Syntax:** `/say <message> [r] [g] [b]`
+**Syntax:** `/say <message>/[r]/[g]/[b]`
 
-**Example:** `/say "Welcome to our server!" 255 0 0`
+**Example:** `/say Welcome to our server!/255/0/0`
 
 ### Teleport
 The `teleport` command is a complex command that can be used in different ways to teleport yourself or other players.
 
-**Syntax:** `/teleport [player] [location]`
+**Syntax:** `/teleport [player]/[location]`
 - `[player]`: The name of the player to teleport. If you want to teleport yourself, you can leave this field empty.
 - `[location]`: The location to teleport to. It can be one of the following:
     - `player`: Name of the player to teleport to.
@@ -121,7 +121,7 @@ The `teleport` command is a complex command that can be used in different ways t
     - `wp`: Teleports you to a waypoint, can only be used to teleport yourself.
     - `node`: Name of the node like city or other location. For example, `Seattle`, `Alberton`, `Airport`.
 
-**Example:** `/teleport MCrow Seattle`, `/teleport bed`, `/teleport wp`, `/teleport Seattle`
+**Example:** `/teleport MCrow/Seattle`, `/teleport bed`, `/teleport wp`, `/teleport Seattle`
 
 > **💡 PRO TIP**  
 > When using the `/teleport wp` command, you can set a waypoint by right clicking on the map to set a marker.
