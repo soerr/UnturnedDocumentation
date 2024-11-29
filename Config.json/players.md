@@ -5,7 +5,7 @@ authors: MCrow
 published: true
 description: Players settings allow you to adjust the health, food, water, and virus levels of players, as well as the damage and regeneration rates of these levels.
 ---
-![items](assets/players.png)
+![items](assets/player.png)
 
 Players settings allow you to adjust the health, food, water, and virus levels of players, as well as the damage and regeneration rates of these levels. You can also adjust the experience, detection radius, and other player settings.
 
