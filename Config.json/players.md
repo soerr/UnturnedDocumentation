@@ -173,5 +173,3 @@ Determines whether players can be instantly killed by a headshot using ranged we
 
 ### Allow_Per_Character_Saves
 Allows players to use multiple character saves, enabling different inventories and stats per character. This is enabled by default in single player and disabled in multiplayer.
-
-
