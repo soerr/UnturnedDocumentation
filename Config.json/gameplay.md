@@ -5,6 +5,7 @@ authors: MCrow
 published: true
 description: Gameplay settings can control the repair level, hitmarkers, crosshair, and other gameplay features.
 ---
+![items](assets/players.png)
 
 Gameplay settings can control the repair level, hitmarkers, crosshair, and other gameplay features.
 
